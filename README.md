@@ -28,7 +28,7 @@ All GPUs are not Cuda compatible. You have to check [here](https://en.wikipedia.
 
 However, if you are installing Cuda, you probably want to use another library such as Tensorflow and Pytorch. Your version of CUDA has to be compatible with any library you will use. 
 For Pytorch, you can easily check [here](https://pytorch.org/get-started/locally/). 
-For Tensorflow, you can check [here](https://docs.nvidia.com/deeplearning/frameworks/tensorflow-wheel-release-notes/overview.html#overview). If there is wheel that match your desired CUDA version then it is ok! Be careful about what you read on the Internet. The latest version of Tensorflow right now is 2.9.0 which is optimized for CUDA 11.2. However, more recent versions of CUDA can still be compatible as long as the correct wheel does exist! 
+For Tensorflow, you can check [here](https://docs.nvidia.com/deeplearning/frameworks/tensorflow-wheel-release-notes/overview.html#overview). If there is wheel that matches your desired CUDA version then it is ok! Be careful about what you read on the Internet. The latest version of Tensorflow right now is 2.9.0 which is optimized for CUDA 11.2. However, more recent versions of CUDA can still be compatible as long as the correct wheel does exist! 
 
 I will go on with CUDA 11.6 as though Tensorflow supports 11.7, Pytorch does not support 11.7 yet. 
 
