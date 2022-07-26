@@ -1,0 +1,8 @@
+wheel
+nvidia-cuda-runtime-cu11 # change the version if needed
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+tensorflow
