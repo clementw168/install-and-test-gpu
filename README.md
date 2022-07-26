@@ -50,10 +50,10 @@ I will go on with CUDA 11.6 as though Tensorflow supports 11.7, Pytorch does not
 - Click on this [link](https://developer.nvidia.com/cuda-toolkit)
 - Click on the button "Download" and you will be redirected to the latest version of CUDA.
 - If that is not the correct version,
-  - Scroll down to the ressources
+  - Scroll down to the resources
   - Click on "Archive of Previous CUDA Releases"
-  - Find you version and download it.
-- Install CUDA throught the programm
+  - Find your version and download it.
+- Install CUDA through the program
 
 You might need to update your CUDA Drivers.
 
@@ -86,17 +86,17 @@ Cuda is a library that allows you to use the GPU efficiently. However, to use yo
 
 Skip this part if you already know what virtual environments are and how to use them
 
-You could just install all your packages in your default Python environment. You would have all your packages by default and that is not so bad if you just want to test something on your computer. However, more often than not, you will want to use virtual environments to have a clean environment especially when you are working in a team or when you are working on a project that will be used by others.
+You could just install all your packages in your default Python environment. You would have all your packages by default, and that is not so bad if you just want to test something on your computer. However, more often than not, you will want to use virtual environments to have a clean environment, especially when you are working in a team or when you are working on a project that will be used by others.
 
 Main reasons for using virtual environments are:
 
-- You want to isolate your packages from the rest of your computer. Then you know exactly what packages with which version are used by your project. This is useful especially for someone else to know what packages are used by your project.
-- You can break your environment if you want to. You can easily delete an virtual environment and create a new one. Everyone has already broken python because of dependencies issues.
-- Conda does the same more or less and is sometimes more convenient. However, it takes a lot more memory on the computer. Conda is also more likely to break because of dependencies issues as it automatically downloads many packages. Virtual environments makes you more flexible so less likely to break as you know what you are doing.
+- You want to isolate your packages from the rest of your computer. Then you know exactly what packages with which version are used by your project. This is useful, especially for someone else, to know what packages are used by your project.
+- You can break your environment if you want to. You can easily delete a virtual environment and create a new one. Everyone has already broken python because of dependencies issues.
+- Conda does the same more or less and is sometimes more convenient. However, it takes a lot more memory on the computer. Conda is also more likely to break because of dependencies issues, as it automatically downloads many packages. Virtual environments make you more flexible, so less likely to break as you know what you are doing.
 
 Good practice is to create a virtual environment for each project.
 
-Virtual environments need a `requirements.txt` file. This file contains the packages needed by your project. Then you can install them with `pip install -r requirements.txt`. That way, anyone can use your project and you will not have to worry about dependencies issues.
+Virtual environments need a `requirements.txt` file. This file contains the packages needed by your project. Then you can install them with `pip install -r requirements.txt`. That way, anyone can use your project, and you will not have to worry about dependencies issues.
 
 To create a virtual environment, you can use the following command:
 
@@ -130,7 +130,7 @@ Create a virtual environment for your project.
 python -m venv <virtual_environment_name>
 ```
 
-Before proceeding, you should check the correct version of Pytorch for your version of CUDA [here](https://pytorch.org/get-started/locally/). Choose a stable version to install with pip which correponds to your version of CUDA. Then, open `pytorch_utils/pytorch_requirements.txt` and change the wheel for Pytorch installation if necessary.
+Before proceeding, you should check the correct version of Pytorch for your version of CUDA [here](https://pytorch.org/get-started/locally/). Choose a stable version to install with pip, which corresponds to your version of CUDA. Then, open `pytorch_utils/pytorch_requirements.txt` and change the wheel for Pytorch installation if necessary.
 
 You can then install your packages with
 
