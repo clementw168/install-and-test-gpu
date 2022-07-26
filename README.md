@@ -69,9 +69,9 @@ Cuda is a library that allows you to use the GPU efficiently. However, to use yo
   - lib
   - include
   - bin
-- Copy <cudnn_path>\bin\cudnn\*.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\bin
-- Copy <cudnn_path>\cuda\include\cudnn\*.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\include
-- Copy <cudnn_path>\cuda\lib\x64\cudnn\*.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\lib\x64
+- Copy `<cudnn_path>\bin\cudnn\*.dll` to `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\bin`
+- Copy `<cudnn_path>\cuda\include\cudnn\*.h` to `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\include`
+- Copy `<cudnn_path>\cuda\lib\x64\cudnn\*.lib` to `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\lib\x64`
 - You can then delete cuDNN folder
   Note : Some people just replace CUDA folders by cuDNN folders so it should not a problem.
 
