@@ -73,7 +73,8 @@ Cuda is a library that allows you to use the GPU efficiently. However, to use yo
 - Copy `<cudnn_path>\cuda\include\cudnn\*.h` to `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\include`
 - Copy `<cudnn_path>\cuda\lib\x64\cudnn\*.lib` to `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vx.x\lib\x64`
 - You can then delete cuDNN folder
-  Note : Some people just replace CUDA folders by cuDNN folders so it should not a problem.
+
+Note : Some people just replace CUDA folders by cuDNN folders so it should not a problem.
 
 ### Test your installation
 
@@ -84,7 +85,7 @@ Cuda is a library that allows you to use the GPU efficiently. However, to use yo
 
 ### Get started with Virtual Environment
 
-Skip this part if you already know what virtual environments are and how to use them
+Skip this part if you already know what virtual environments are and how to use them.
 
 You could just install all your packages in your default Python environment. You would have all your packages by default, and that is not so bad if you just want to test something on your computer. However, more often than not, you will want to use virtual environments to have a clean environment, especially when you are working in a team or when you are working on a project that will be used by others.
 
