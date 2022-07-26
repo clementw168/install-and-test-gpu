@@ -1,4 +1,4 @@
-# Install and test GPU with python libraries
+# How to use GPU with python libraries in a Virtual Environment
 
 Basic repository to install CUDA and create your venv with Tensorflow or Pytorch using CUDA. When I am writing this, I am on a Windows 11 laptop with a GTX 1050. I will not use Conda.
 
