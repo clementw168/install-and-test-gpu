@@ -59,7 +59,7 @@ You might need to update your CUDA Drivers.
 
 ### Download cuDNN
 
-Cuda is a library that allows you to use the GPU efficiently. However, to use your GPU even more efficiently, cuDNN implements some standard operations for Deep Neural Networks such as forward propagation, backpropagation for convolutions, pooling, normalization, etc. In order to you Pytorch and Tensorflow, you need to install cuDNN.
+Cuda is a library that allows you to use the GPU efficiently. However, to use your GPU even more efficiently, cuDNN implements some standard operations for Deep Neural Networks such as forward propagation, backpropagation for convolutions, pooling, normalization, etc. In order to use Pytorch and Tensorflow, you need to install cuDNN.
 
 - Click on this [link](https://developer.nvidia.com/cudnn)
 - Click on the button "Download" and you will be redirected to the latest version of cuDNN. If any doubt, you can check this [compatibility matrix](https://docs.nvidia.com/deeplearning/cudnn/support-matrix/index.html).
