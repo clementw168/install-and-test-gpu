@@ -123,6 +123,12 @@ You can also install all dependencies of a project with a `requirements.txt` fil
 pip install -r requirements.txt
 ```
 
+You can get the list of all installed packages in your environment with:
+
+```
+pip list
+```
+
 ### Run a test with Pytorch
 
 Create a virtual environment for your project.
